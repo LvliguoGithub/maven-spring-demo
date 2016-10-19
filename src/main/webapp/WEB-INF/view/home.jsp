@@ -14,6 +14,6 @@
 </head>
 <body>
     <h1><c:out value = "${name}" /></h1>
-    <h2><c:out value = "${mailAddressress}" /></h2>
+    <h2><c:out value = "${mailAddress}" /></h2>
 </body>
 </html>
