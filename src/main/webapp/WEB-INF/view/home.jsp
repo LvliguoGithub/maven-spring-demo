@@ -9,10 +9,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 <head>
-    <link rel="icon" type="image/x-icon" href="guo_c.ico">
+    <link rel="icon" type="image/x-icon" href="/resources/guo_c.ico">
     <title>MavenDemo</title>
 </head>
 <body>
-    <h2><c:out value = "${name}" /></h2>
+    <h1><c:out value = "${name}" /></h1>
+    <h2><c:out value = "${mailAddressress}" /></h2>
 </body>
 </html>
